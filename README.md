@@ -1,5 +1,5 @@
 # Container Orchestration PoC (WIP)
-![K3s Logo](https://k3s.io/img/logo.png)
+![K3s Logo](https://k3s.io/img/k3s-logo-light.svg)
 
 ## ⚠️ Warning: Educational Project
 
