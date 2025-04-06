@@ -1,6 +1,16 @@
-# container-orchestration-poc
+# Container Orchestration PoC (WIP)
+![K3s Logo](https://k3s.io/img/logo.png)
 
-🚀 **Production-ready K3s setup for multi-project container hosting**  
+## ⚠️ Warning: Educational Project
+
+> **IMPORTANT:** This project is currently labeled as Work In Progress (WIP) and is intended for **educational and study purposes only**. It is not yet recommended for production use.
+>
+> I am actively learning and improving this setup as I explore Kubernetes orchestration concepts. The WIP label will be removed once I believe the implementation meets production standards and security best practices.
+>
+> Use at your own risk and always consult official documentation for production deployments.
+
+
+🚀 **K3s setup for multi-project container hosting**  
 ✅ Automatic scaling (HPA) | 📊 Monitoring stack | 🐳 Docker-ready  
 
 ## Purpose  
@@ -52,3 +62,5 @@ A ready-to-deploy infrastructure PoC featuring:
 | 🔜     | SSL/TLS automation               | Medium    |
 | 🔜     | GPU support documentation        | Low       |
 | 🔜     | Backup solutions                 | Medium    |
+
+
