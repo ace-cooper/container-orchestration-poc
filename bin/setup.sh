@@ -13,6 +13,18 @@ NC='\033[0m' # No Color
 
 echo -e "${CYAN}🚀 Starting container orchestration setup...${NC}"
 
+# Update and upgrade system packages
+sudo apt-get update -y
+sudo apt-get upgrade -y
+
+# Install required packages
+sudo apt-get install -y \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+
 # Run Docker setup
 echo -e "${YELLOW}🐳 Setting up Docker...${NC}"
 ./setup_docker.sh
